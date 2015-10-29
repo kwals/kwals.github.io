@@ -1,21 +1,22 @@
 Hello World!
 
 
-<form action="https://test.ipg-online.com/connect/gateway/processing" method="post">
+<form action="http://requestb.in/1heo0vz1" method="post">
     <div>
         <input type="hidden" name="txntype" value="preauth">
         <input type="hidden" name="timezone" value="America/New_York">
 
-       <!--  <label for="txndatetime">Date and Time</label>
-        <input type="text" id="txndatetime" value="txndatetime"> -->
-         <input type="hidden" name="txndatetime" value="2015:10:29-12:45:27">
+        <label for="txndatetime">Date and Time</label>
+        <input type="text" id="txndatetime" name="txndatetime">
+<!--          <input type="hidden" name="txndatetime" value="2015:10:29-12:45:27">
         <input type="hidden" name="hash_algorithm" value="SHA-256">
-  <!--       <label for="hash">Hashed value</label>
-        <input type="text" id="hash" value="hash" > -->
+ -->
+        <label for="hash">Hashed value</label>
+        <input type="text" id="hash" name="hash" >
 
-        <input type="hidden" name="hash" value="a3859780c8231e3d447810d94b37f1a9ee8e0a9e974c89f07ed08ed9ea86ea01">
-        <!-- <label for="storename">Store number</label>
-        <input type="text" id="storename" value="storename"> -->
+       <!--  <input type="hidden" name="hash" value="a3859780c8231e3d447810d94b37f1a9ee8e0a9e974c89f07ed08ed9ea86ea01"> -->
+        <label for="storename">Store number</label>
+        <input type="text" id="storename" name="storename">
         <input type="hidden" name="storename" value="1290000006704">
         <input type="hidden" name="mode" value="payonly">
 
